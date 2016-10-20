@@ -1,6 +1,19 @@
-/*styles for home content only*/
+.qr {
+  width: 300px;
+  height: 300px;
+}
 
-/*@import 'https://fonts.googleapis.com/css?family=Open+Sans:300|Source+Sans+Pro';*/
+.catatan {
+  color: #7f8c8d;
+  font-size: 12px;
+}
+
+.foto {
+  width: 50%;
+  -moz-box-shadow: 1px 1px 10px #999;
+  -webkit-box-shadow: 1px 1px 10px #999;
+      box-shadow: 1px 1px 10px #999;
+}
 
 .vertical-center {
   position: absolute;
@@ -61,8 +74,7 @@ modal {
 }
 
 img {
-  width: 300px;
-  height: 120px;
+  width: 100%;
 }
 
 .login {
@@ -90,12 +102,6 @@ label {
   font-size: 20px;
 }
 
-.shadow:hover {
-  /*border: solid 1px #CCC;*/
-  -moz-box-shadow: 1px 1px 10px #999;
-  -webkit-box-shadow: 1px 1px 10px #999;
-      box-shadow: 1px 1px 10px #999;
-}
 .input-hidden {
   position: absolute;
   left: -9999px;

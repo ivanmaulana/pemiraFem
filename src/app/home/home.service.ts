@@ -11,8 +11,10 @@ export class HomeService {
   public bemKm = [
     {
       'id' : 1,
-      'ketua' : 'Joko Widodo',
-      'wakil' : 'Jusuf Kalla',
+      'ketua' : 'Bilal Akhmad Farkhan ',
+      'wakil' : 'Al-May Abyan Izzy Burhani',
+      'nimKetua' : 'H14140079',
+      'nimWakil' : 'H34140043',
       'quote' : 'Indonesia Hebat'
     },
     {
